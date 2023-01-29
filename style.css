@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #E5E5E5;
+}
+
+header {
+    width: 100%;
+    /* height: 100vh; */
+    background: #E5E5E5;
+}
+
+.header-photo {
+    width: 140px;
+    height: 65px;
+}
+
+.header-photo2 {
+    width: 146px;
+    height: 56px;
+}
+
+.boxes {
+    padding-top: 20px;
+}
+
+.box {
+    margin-left: 150px;
+    margin-bottom: 90px;
+}
+
+.box p {
+    width: 94px;
+}
+
+.hurd-photo {
+    width: 100px;
+    border-radius: 50%;
+}
+
+#clienst {
+    background: #E5E5E5;
+}
+
+.section-photo {
+    width: 500px;
+    margin-left: -50px;
+}
