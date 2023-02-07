@@ -6,12 +6,15 @@
 
 body {
     background: #E5E5E5;
+    background: url(./img/bg.jpg) no-repeat center center / cover;
+    padding: 0 0 100px 0;
 }
 
 header {
     width: 100%;
     /* height: 100vh; */
     background: #E5E5E5;
+    background: url(./img/bg.jpg) no-repeat center center / cover;
 }
 
 .header-photo {
@@ -22,6 +25,10 @@ header {
 .header-photo2 {
     width: 146px;
     height: 56px;
+}
+
+.carousel-item img {
+    border-radius: 5%;
 }
 
 .boxes {
@@ -35,6 +42,7 @@ header {
 
 .box p {
     width: 94px;
+    color: #E5E5E5;
 }
 
 .hurd-photo {
@@ -44,9 +52,58 @@ header {
 
 #clienst {
     background: #E5E5E5;
+    background: url(./img/bg.jpg) no-repeat center center / cover;
 }
 
 .section-photo {
     width: 500px;
     margin-left: -50px;
+    height: 440px;
+}
+
+.img-box {
+    flex-wrap: wrap;
+}
+
+.first-img {
+    margin-bottom: 25px;
+}
+
+.second-img {
+    width: 292px;
+}
+
+.section-h1 {
+    color: rgb(36, 97, 229);
+    cursor: pointer;
+}
+
+.left {
+    margin-left: 135px !important;
+}
+
+.comunicate {
+    display: flex;
+    height: 100px;
+    background-color: #6c5be9;
+}
+
+.icon {
+    font-size: 60px;
+    color: rgb(7, 7, 78);
+    margin-left: 30px;
+}
+
+.con {
+    font-style: 15px;
+    margin-left: 20px;
+    padding-top: 20px;
+}
+
+.con p {
+    font-style: 5px;
+}
+
+.section-5box {
+    margin-left: 55px !important;
 }
